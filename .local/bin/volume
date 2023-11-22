@@ -1,0 +1,15 @@
+#!/bin/sh
+
+
+pamixer --set-limit 254
+
+if [ "$1" == "incr" ];then
+	pamixer -u
+	pamixer -i 5
+elif [ "$1" == "decr" ];then
+	pamixer -u
+	pamixer -d 5
+elif [ "$1" == "tmute" ];then
+	pamixer -t
+fi
+dunstify -t 1000  "Volume : $(pamixer --get-volume)"
