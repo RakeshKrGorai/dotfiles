@@ -1,5 +1,7 @@
-Xft.dpi: 114
+Xft.dpi: 100
 
+! Change transparency of terminal
+*.alpha: 0
 
 ! SXIV Colors
 Sxiv.background: #262626
