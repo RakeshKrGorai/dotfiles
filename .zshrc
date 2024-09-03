@@ -100,9 +100,13 @@ alias tree='tree -a -I .git'
 
 # Add flags to existing aliases.
 alias ls="/usr/bin/exa --color=always --group-directories-first --icons"
-
-
 alias ll='/usr/bin/exa --color=always --group-directories-first --icons -l'
+alias la='/usr/bin/exa --color=always --group-directories-first --icons -a'
+
+alias cva="npm create vite@latest"
+alias cra="npx create-react-app"
+alias cna="npx create-next-app@latest"
+alias crna="npx create-expo-app@latest --template blank"
 
 
 alias ltree='/usr/bin/exa --color=always --group-directories-first --icons -T'
