@@ -108,6 +108,12 @@ alias cra="npx create-react-app"
 alias cna="npx create-next-app@latest"
 alias crna="npx create-expo-app@latest --template blank"
 
+alias gcl='git clone'
+alias gi='git init'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+
 
 alias ltree='/usr/bin/exa --color=always --group-directories-first --icons -T'
 
